@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Typography Test</title>
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, dialog {
+  display: block;
+}
+/* Switch box model to border-box. See http://paulirish.com/2012/box-sizing-border-box-ftw */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 87.5%;
+  overflow-y: scroll; /* Force a scrollbar in non-IE */
+  -webkit-text-size-adjust: 100%; /* Prevent iOS text size adjust on orientation change without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: url(1x21.gif) repeat fixed 0 -3px transparent;
+  margin: 1.3em auto;
+  min-height: 100%;
+  padding: 0;
+}
+
+/* Fonts settings based on the 100E2R standard: http://www.informationarchitects.jp/en/100e2r/ */
+body, button, caption, fieldset, input, legend, option, select, textarea, td, th {
+  color: #222; /* Full black on white is too much contrast, #222 is a better default */
+  font: 1em/1.5 Arimo, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', FreeSerif, Georgia, serif; */
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, footer, p, li {
+  background: rgba(192, 192, 192, 0.5);
+}
+
+/* Font size = 14px (87.5%), line height = 21px (1.5em), interval = major third (1:1.25) */
+/* http://modularscale.com/scale/?px1=14&px2=&ra1=1.25&ra2=0 */
+
+h1 {
+  font-size: 2.441em; /* 34.18px */
+  line-height: 1.2288em;
+  margin: 0 0 0.6144em;
+}
+
+h2 {
+  font-size: 1.953em; /* 27.344px */
+  line-height: 1.5360em;
+  margin: 0 0 0.7680em;
+}
+
+h3 {
+  font-size: 1.563em; /* 21.875px */
+  line-height: 1.9200em;
+  margin: 0 0 0.96em;
+}
+
+h4 {
+  font-size: 1.25em; /* 17.500px */
+  line-height: 1.2em;
+  margin: 0 0 1.2em;
+}
+
+footer {
+  font-size: 0.8em; /* 11.2px */
+  line-height: 1.875em;
+  margin: 0 0 1.875em;
+}
+
+/* Add and/or remove tags as your baseline grid needs */
+p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, h5, h6, img, figure, figcaption, button, hr {
+  margin: 0 0 1.5em;
+}
+
+</style>
+</head>
+<body>
+  <h1>Typography Test Main Header</h1>
+  <p>Font size = 14px (87.5%), line height = 21px (1.5em), interval = major third (1:1.25)</p>
+  <h2>Subhead</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
+  </p>
+  <p>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <h3>Third-level heading.</h3>
+  <ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ul>
+  <h4>Fourth-level heading.</h4>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <footer>&copy;2012 Nobody Special</footer>
+</body>
+</html>
