@@ -1,4 +1,3 @@
-#Micah's GitHub Pages#
+# Micah's GitHub Pages
 
-For now, this is just a repository for storing random stuff that doesn't fit anywhere else,
-and the source for http://micahw156.github.com/
+I don't really use this.
